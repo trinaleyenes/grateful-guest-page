@@ -6,6 +6,16 @@
 
 /* Design system for AI4Business Core funnel - dark, bold, high-energy */
 
+import { Link } from "react-router-dom";
+
+export default function Index() {
+  return (
+    <div>
+      <Link to="/thank-you">Go to Thank You</Link>
+    </div>
+  );
+}
+
 @layer base {
   :root {
     --background: 220 25% 8%;
